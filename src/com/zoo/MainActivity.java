@@ -15,7 +15,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
         	        
-		Button sendButton = (Button) findViewById(R.id.button_send);
+		Button sendButton = (Button) findViewById(R.id.button_mirrorText);
 		sendButton.setOnClickListener(new View.OnClickListener() {			
 			@Override
 			public void onClick(View v) {

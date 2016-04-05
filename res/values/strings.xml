@@ -3,7 +3,7 @@
 
     <string name="app_name">Zoo</string>
     <string name="hello_world">Hello world!</string>
-    <string name="send">Send</string>
+    <string name="mirrorText">Mirror Text</string>
     <string name="reverseText">ReverseText</string>
     <string name="form">Form</string>
     <string name="listUsers">Users</string>

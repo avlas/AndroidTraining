@@ -18,10 +18,10 @@
 
     <!-- Button -->
     <Button
-        android:id="@+id/button_send"
+        android:id="@+id/button_mirrorText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/send" />
+        android:text="@string/mirrorText" />
 
     <!-- Button -->
     <Button
