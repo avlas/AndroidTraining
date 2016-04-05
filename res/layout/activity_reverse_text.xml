@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayoutReverseText"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.formation.helloworld.ReverseTextActivity" >
+
+    <TextView
+        android:id="@+id/label_redirected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/redirected" />
+
+    <!-- Textarea -->
+
+    <EditText
+        android:id="@+id/textarea_toReverse"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/background_light"
+        android:gravity="top|left"
+        android:hint="@string/enterText"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <!-- Label -->
+
+    <TextView
+        android:id="@+id/label_reverseText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/darker_gray"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <!-- Button -->
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back" />
+
+</LinearLayout>
