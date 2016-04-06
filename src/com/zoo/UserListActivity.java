@@ -1,8 +1,10 @@
 package com.zoo;
 
+import android.app.Activity;
+import android.app.ListFragment;
 import android.content.Intent;
 import android.os.Bundle;
-import android.app.Activity;
+import android.support.v4.widget.DrawerLayout;
 
 /**
  * An activity representing a list of Users. This activity has different

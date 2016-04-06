@@ -1,46 +1,21 @@
 package com.zoo;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.widget.DrawerLayout;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
 
 public class MainActivity extends Activity {
+
+	private MenuFragment mMenuFragment;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
-        	        
-		Button sendButton = (Button) findViewById(R.id.button_mirrorText);
-		sendButton.setOnClickListener(new View.OnClickListener() {			
-			@Override
-			public void onClick(View v) {
-				Intent intentActivity = new Intent(MainActivity.this, ReverseTextActivity.class);
-				startActivity(intentActivity);
-			}
-		});
-		
-		Button formButton = (Button) findViewById(R.id.button_form);
-		formButton.setOnClickListener(new View.OnClickListener() {			
-			@Override
-			public void onClick(View v) {
-				Intent formActivity = new Intent(MainActivity.this, FormActivity.class);
-				startActivity(formActivity);
-			}
-		});
-		
-		Button usersButton = (Button) findViewById(R.id.button_list_users);
-		usersButton.setOnClickListener(new View.OnClickListener() {			
-			@Override
-			public void onClick(View v) {
-				Intent usersActivity = new Intent(MainActivity.this, UserListActivity.class);
-				startActivity(usersActivity);
-			}
-		});
+		setContentView(R.layout.activity_drawer);
+
+		mMenuFragment = (MenuFragment) getFragmentManager().findFragmentById(R.id.menu_drawer);
 	}
 
 	@Override

@@ -10,6 +10,7 @@
     tools:context="com.formation.helloworld.MainActivity" >
 
     <!-- Label -->
+
     <TextView
         android:id="@+id/label_helloWorld"
         android:layout_width="wrap_content"
@@ -17,6 +18,7 @@
         android:text="@string/hello_world" />
 
     <!-- Button -->
+
     <Button
         android:id="@+id/button_mirrorText"
         android:layout_width="wrap_content"
@@ -24,17 +26,19 @@
         android:text="@string/mirrorText" />
 
     <!-- Button -->
+
     <Button
         android:id="@+id/button_form"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/form" />
-    
+
     <!-- Button -->
+
     <Button
         android:id="@+id/button_list_users"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/listUsers" />
-    
+
 </LinearLayout>

@@ -7,14 +7,12 @@
     <string name="reverseText">ReverseText</string>
     <string name="form">Form</string>
     <string name="listUsers">Users</string>
-    
     <string name="enterText">Please enter a text</string>
     <string name="text_changed">"Text changed"</string>
     <string name="radio_male">Male</string>
     <string name="chk_ios">ios</string>
     <string name="chk_android">android</string>
     <string name="radio_female">Female</string>
-    
     <string name="back">Back</string>
     <string name="redirected">You were redirected!</string>
     <string name="action_settings">Settings</string>
